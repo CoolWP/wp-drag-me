@@ -284,17 +284,3 @@ global $post;
 	$GLOBALS['WP_Drag_Me'] = WP_Drag_Me::instance();
 
 }
-/*
-Okay, You can  code your awesome plugin now!
- */
-add_action('init', 'fdfghreyhreuhj');
-function fdfghreyhreuhj() {
-/*	$a = get_transient('cwp_dragme_127001');
-
- */
-/*	$key = '123456';
-$user_login = 'DFGHTRJH';
-$a = '<' . network_site_url("wp-login.php?action=rp&key=$key&login=" . rawurlencode($user_login), 'login') . ">\r\n";
-
-var_dump($a);*/
-}
