@@ -82,10 +82,10 @@ if (!class_exists('WP_Drag_Me')) {
 			}
 			if (!isset($_SESSION['wp_drag_me']) || !$_SESSION['wp_drag_me']) {
 
-				$errors->add('dragme_error', __('<strong>ERROR</strong>: 请拖动下面的滑块进行人机验证。'));
+				$errors->add('dragme_error', '<strong>ERROR</strong>: 请拖动下面的滑块进行人机验证。');
 			} else {
 				if (self::get_ip() != $_SESSION['wp_drag_me']) {
-					$errors->add('dragme_error', __('<strong>ERROR</strong>: 未通过人机验证。'));
+					$errors->add('dragme_error', '<strong>ERROR</strong>: 未通过人机验证。');
 				}
 				unset($_SESSION['wp_drag_me']);
 			}
