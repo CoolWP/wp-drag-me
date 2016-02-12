@@ -2,7 +2,7 @@
 
 ## Intro
 
-This is a WordPress CAPTCHA plugin.
+This is a WordPress CAPTCHA plugin, little,simple,nice, whatever.
 
 ## Screenshot
 
